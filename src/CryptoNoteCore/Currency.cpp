@@ -598,7 +598,7 @@ std::vector<uint64_t> cumulativeDifficulties_o(cumulativeDifficulties);
 
 
   if (m_buggedZawyDifficultyBlockIndex && m_buggedZawyDifficultyBlockIndex <= blockIndex) {
-std::cout << "m_buggedZawyDifficultyBlockIndex" << std::endl;
+//std::cout << "m_buggedZawyDifficultyBlockIndex" << std::endl;
     if (high != 0) {
       return 0;
     }
